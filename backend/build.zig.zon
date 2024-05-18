@@ -1,0 +1,17 @@
+.{
+    .name = "backend",
+    .version = "0.1.0",
+    .minimum_zig_version = "0.11.0",
+    .dependencies = .{
+        .jetzig = .{
+            .url = "https://github.com/jetzig-framework/jetzig/archive/aec351664bfd65fedd282bdd117944e24ab151cd.tar.gz",
+            .hash = "1220823cd081a47400076e834ef45da7a547a89872b67f9b7f0e4a4b7b34120ece21",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "README.md",
+    },
+}
